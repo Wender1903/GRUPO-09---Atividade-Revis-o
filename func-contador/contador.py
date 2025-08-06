@@ -6,5 +6,7 @@ def contador(string:str):
         quantidade = string.count(palavra) 
         dicionario[f"{string[pos]}"] = quantidade 
         pos += 1 
-        return dicionario
+    return dicionario
     
+teste = contador("Esse exercício é um exercício fácil ou difícil")
+print(teste)
