@@ -1,5 +1,5 @@
 def contador(string:str): 
-    string = string.split() 
+    string = string.lower().split() 
     pos = 0 
     dicionario = dict() 
     for palavra in string: 
@@ -8,5 +8,5 @@ def contador(string:str):
         pos += 1 
     return dicionario
     
-teste = contador("Esse exercício é um exercício fácil ou difícil")
+teste = contador("Esse exercício é um Exercício fácil ou difícil")
 print(teste)
