@@ -19,7 +19,7 @@ Este repositório contém duas atividades propostas para revisão prática de Py
 ├── index.html
 ├── style.css
 └── script.js
-``
+```
 
 ---
 
