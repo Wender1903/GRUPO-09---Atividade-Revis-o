@@ -1,4 +1,4 @@
-def contador(string:str): 
+def contator(string:str): 
     string = string.lower().split() 
     pos = 0 
     dicionario = dict() 
@@ -8,5 +8,5 @@ def contador(string:str):
         pos += 1 
     return dicionario
     
-teste = contador("Esse exercício é um Exercício fácil ou difícil")
+teste = contator("Esse exercício é um Exercício fácil ou difícil")
 print(teste)
